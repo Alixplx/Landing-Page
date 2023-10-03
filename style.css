@@ -184,6 +184,7 @@ video {
     margin: 30px 5px 10px 5px;
     padding: 8px;
     text-align: center;
+    line-height: 1.6;
 }
 
 .description .long ul {
@@ -198,4 +199,129 @@ video {
 .description .long p {
 
     border-bottom: 2px solid black;
+}
+
+/* Small */
+@media (max-width:768px) {
+
+    .background_section img {
+
+        width: 100%;
+        height: 200px;
+    }
+
+    .download_section {
+
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .download_section .icon {
+        display: none;
+    }
+
+    .download_section img {
+
+        width: 100px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .slider-container {
+
+        margin: 10px auto;
+        width: 200px;
+        height: 300px;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .slider-container img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider-controls {
+
+        width: 700px;
+        margin-top: 20px;
+    }
+
+    .slider-controls .prev,
+    .slider-controls .next {
+
+        display: none;
+    }
+
+    .description .long {
+
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+
+/* Medium */
+@media(max-width:1200px) {
+
+    .background_section img {
+
+        width: 100%;
+        height: 300px;
+    }
+
+    .download_section {
+
+        display: flex;
+        padding: 10px;
+    }
+
+    .download_section .icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 20%;
+    }
+
+    .download_section img {
+
+        width: 220px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    .slider-container {
+
+        margin: 10px auto;
+        width: 200px;
+        height: 300px;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .slider-container img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider-controls {
+
+        width: 600px;
+        margin-top: 20px;
+    }
+
+    .description .long {
+
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
 }
