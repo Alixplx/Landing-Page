@@ -247,8 +247,12 @@ video {
 
     .slider-controls {
 
-        width: 700px;
-        margin-top: 20px;
+        width: 600px;
+        margin-top: 30px;
+        position: absolute;
+        left: 20%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
     }
 
     .slider-controls .prev,
@@ -314,7 +318,8 @@ video {
     .slider-controls {
 
         width: 600px;
-        margin-top: 20px;
+        margin-top: 30px;
+        
     }
 
     .description .long {
@@ -322,6 +327,7 @@ video {
         font-weight: bold;
         font-size: 16px;
         line-height: 1.8;
+        margin-top: 90px;
     }
 
 }
